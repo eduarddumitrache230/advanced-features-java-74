@@ -4,31 +4,135 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="" />
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DSA/ListTheory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/AbstractionPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/AbstractionPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/CompositionPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/CompositionPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/EncapsulationPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/EncapsulationPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/InherintancePrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/InherintancePrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/PolymorphismPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/PolymorphismPrinciple.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kNiUGWuEYTfJgew0rS5BozhUph" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractionPrinciple.executor": "Run",
+    "Application.CompositionPrinciple.executor": "Run",
+    "Application.EncapsulationPrinciple.executor": "Run",
+    "Application.InherintancePrinciple.executor": "Run",
+    "Application.ListTheory.executor": "Run",
+    "Application.PolymorphismPrinciple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.ListTheory">
+    <configuration name="AbstractionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.AbstractionPrinciple" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompositionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.CompositionPrinciple" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InherintancePrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.InherintancePrinciple" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DSA.ListTheory" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolymorphismPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.PolymorphismPrinciple" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ListTheory" />
+        <item itemvalue="Application.AbstractionPrinciple" />
+        <item itemvalue="Application.CompositionPrinciple" />
+        <item itemvalue="Application.PolymorphismPrinciple" />
+        <item itemvalue="Application.InherintancePrinciple" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
