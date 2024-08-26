@@ -47,12 +47,12 @@ class MultimediaAudio extends MultimediaItem {
 
     @Override
     public void play() {
-        System.out.println("MultimediaAudio"+ title+ "plays");
+        System.out.println("MultimediaAudio "+ title+ " plays");
     }
 
     @Override
     public void stop() {
-        System.out.println("MultimediaAudio"+ title+ "stops");
+        System.out.println("MultimediaAudio "+ title+ " stops");
 
     }
 }
@@ -60,12 +60,12 @@ class MultimediaAudio extends MultimediaItem {
 class MultimediaVideo extends MultimediaItem {
     @Override
     public void play() {
-        System.out.println("MultimediaVideo"+ title+ "plays");
+        System.out.println("MultimediaVideo "+ title+ " plays");
     }
 
     @Override
     public void stop() {
-        System.out.println("MultimediaVideo"+ title+ "stops");
+        System.out.println("MultimediaVideo "+ title+ " stops");
     }
 
     public MultimediaVideo(String title) {
