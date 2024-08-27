@@ -5,12 +5,21 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 /*
+    Comparable seteaza o regula Universala de sortare
+    In cazul in care folosim Collection.sort sau list.sort() putem opta pt utilizarea regulii setate in clasa de
+    obiect sau o putem suprascrie cu un Comparator specific
+
+    Comparable si Comparator sunt ambele interfete utilizate in contextul sortarii
+    Comparable e utilizat la nivelul claselor de obiect
+    Comparator e utilizat la nivelul algoritmilor de sortare tipici structurilor de date
+
+
     Movie Ratings:
     Implement a movie rating system using both a HashSet and a TreeSet where movies are stored and sorted based on
      their ratings.
  */
 
-class Movie {
+class Movie implements Comparable<Movie> {
     private String title;
     private Double rating;
     private LocalDate relaseDate;
@@ -53,19 +62,22 @@ class Movie {
                 ", relaseDate=" + relaseDate +
                 '}';
     }
+
+    @Override
+    public int compareTo(Movie anotherMovie) {
+        return this.getTitle().compareTo(anotherMovie.getTitle());//comparam this -> CURRENT MOVIE cu ANOTHER RANDOM MOVIE
+    }
 }
+
 public class MovieRatings {
     public static void main(String[] args) {
 
-
-
-
         Set<Movie> movieUnorderedSet = new HashSet<>();
 
-        movieUnorderedSet.add(new Movie("Inception",8.8,LocalDate.of(2004,12,4)));
-        movieUnorderedSet.add(new Movie("The Dark Knight",5.2,LocalDate.of(2006,12,5)));
-        movieUnorderedSet.add(new Movie("Pulp Fiction",9.1,LocalDate.of(2004,6,4)));
-        movieUnorderedSet.add(new Movie("Interstellar",8.8,LocalDate.of(2004,6,2)));
+        movieUnorderedSet.add(new Movie("Inception", 8.8, LocalDate.of(2004, 12, 4)));
+        movieUnorderedSet.add(new Movie("The Dark Knight", 5.2, LocalDate.of(2006, 12, 5)));
+        movieUnorderedSet.add(new Movie("Pulp Fiction", 9.1, LocalDate.of(2004, 6, 4)));
+        movieUnorderedSet.add(new Movie("Interstellar", 8.8, LocalDate.of(2004, 6, 2)));
 
 
         System.out.println(movieUnorderedSet);
@@ -105,19 +117,37 @@ public class MovieRatings {
         //Collections si sort
         List<Movie> movieSortedList2 = new ArrayList<>(movieUnorderedSet);
         Collections.sort(
-                movieSortedList2,Comparator
-                .comparing(Movie::getRelaseDate)
-                .reversed());
+                movieSortedList2, Comparator
+                        .comparing(Movie::getRelaseDate)
+                        .reversed());
 
         System.out.println("Lista sortata contine:");
         displayList(movieSortedList2);
 
 
         //TreeSet
+        //Set este interfata parinte pentru SortedSet
+        //SortedSet adauga functionalitatile de sortare prin comparator
+        //SortedSet este implementata de TreeSet
+
+        SortedSet<Movie> movieOrderedSet2 = new TreeSet<>();
+
+        movieOrderedSet2.add(new Movie("Inception", 8.8, LocalDate.of(2004, 12, 4)));
+        movieOrderedSet2.add(new Movie("The Dark Knight", 5.2, LocalDate.of(2006, 12, 5)));
+        movieOrderedSet2.add(new Movie("Pulp Fiction", 9.1, LocalDate.of(2004, 6, 4)));
+        movieOrderedSet2.add(new Movie("Interstellar", 8.8, LocalDate.of(2004, 6, 2)));
+
+        System.out.println("Setul sortat contine: ");
+        System.out.println(movieOrderedSet2);
+        displayList(movieOrderedSet2);
+        // Inception ? Interstellar (se compara fiecare cod ascii al caracterelor cu acelasi index)
+
+
     }
-    public static void displayList(List<Movie>list){
-        for (Movie it: list){
-            System.out.println(it.getTitle() + " " + it.getRating() + " " + it.getRelaseDate() );
+
+    public static void displayList(Collection<Movie> list) {
+        for (Movie it : list) {
+            System.out.println(it.getTitle() + " " + it.getRating() + " " + it.getRelaseDate());
         }
         System.out.println();
     }
