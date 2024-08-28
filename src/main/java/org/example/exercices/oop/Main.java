@@ -1,4 +1,4 @@
-package org.example.exercices.oop;
+package org.example.exercices.OOP;
 /*
  Create a multimedia player system where each multimedia item (audio, video) has its own methods to play and stop.
  -clasa parinte MultimediaItem (instantiaza cele 2 metode generice play stop)
