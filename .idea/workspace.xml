@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Added support for other list methods in ListTheory">
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompositionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncapsulationPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InherintancePrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListTheory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolymorphismPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractionPrinciple.executor": "Run",
+    "Application.CompositionPrinciple.executor": "Run",
+    "Application.EncapsulationPrinciple.executor": "Run",
+    "Application.InherintancePrinciple.executor": "Run",
+    "Application.ListTheory.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MovieRatings.executor": "Run",
+    "Application.PolymorphismPrinciple.executor": "Run",
+    "Application.WordCount.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MovieRatings">
     <configuration name="AbstractionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oop.AbstractionPrinciple" />
@@ -163,12 +166,32 @@
       <option name="project" value="LOCAL" />
       <updated>1724341939917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java">
+      <option name="closed" value="true" />
+      <created>1724865731730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724865731730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ListTheory class tu support CRUD operations on List" />
     <MESSAGE value="Added support for other list methods in ListTheory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for other list methods in ListTheory" />
+    <MESSAGE value="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/exercices/oop/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
