@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Created solution framework for frequency counter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exercices/set/MovieRatings.java" afterDir="false" />
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Added support for other list methods in ListTheory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsa/SetTheory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/SetTheory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercices/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercices/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exercices/oop/MultimediaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exercices/oop/MultimediaItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +20,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,29 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractionPrinciple.executor": "Run",
-    "Application.CompositionPrinciple.executor": "Run",
-    "Application.EncapsulationPrinciple.executor": "Run",
-    "Application.InherintancePrinciple.executor": "Run",
-    "Application.ListTheory.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapTheory.executor": "Run",
-    "Application.MovieRatings.executor": "Run",
-    "Application.PolymorphismPrinciple.executor": "Run",
-    "Application.SetTheory.executor": "Run",
-    "Application.WordCount.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging feature/exercices-map",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractionPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompositionPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InherintancePrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListTheory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PolymorphismPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="Application.MovieRatings">
     <configuration name="AbstractionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oop.AbstractionPrinciple" />
       <module name="AdvancedFeauturesTheory74" />
@@ -90,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oop.CompositionPrinciple" />
+    <configuration name="ListTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DSA.ListTheory" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="PATTERN" value="org.example.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exercices.OOP.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.exercices.oop.Main" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exercices.OOP.*" />
+          <option name="PATTERN" value="org.example.exercices.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DSA.MapTheory" />
+    <configuration name="MovieRatings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exercices.set.MovieRatings" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DSA.*" />
+          <option name="PATTERN" value="org.example.exercices.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DSA.SetTheory" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exercices.map.WordCount" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DSA.*" />
+          <option name="PATTERN" value="org.example.exercices.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SetTheory" />
-        <item itemvalue="Application.MapTheory" />
+        <item itemvalue="Application.MovieRatings" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CompositionPrinciple" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.ListTheory" />
         <item itemvalue="Application.AbstractionPrinciple" />
       </list>
     </recent_temporary>
@@ -177,115 +163,12 @@
       <option name="project" value="LOCAL" />
       <updated>1724341939917</updated>
     </task>
-    <task id="LOCAL-00003" summary="Added support for other list methods in ListTheory">
-      <option name="closed" value="true" />
-      <created>1724342077963</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1724342077963</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added SetTheory to support HasSet implementation">
-      <option name="closed" value="true" />
-      <created>1724347282708</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1724347282708</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added MapTheory + exercices OOP">
-      <option name="closed" value="true" />
-      <created>1724688664837</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724688664837</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Created parent+child class">
-      <option name="closed" value="true" />
-      <created>1724690356168</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1724690356168</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Created parent+child class">
-      <option name="closed" value="true" />
-      <created>1724692787583</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1724692787583</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Created parent+child class">
-      <option name="closed" value="true" />
-      <created>1724693362782</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1724693362782</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Created parent+child class">
-      <option name="closed" value="true" />
-      <created>1724693436912</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1724693436912</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Created parent+child class">
-      <option name="closed" value="true" />
-      <created>1724693446468</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1724693446468</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added exercise support HashSet and Set">
-      <option name="closed" value="true" />
-      <created>1724776281553</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1724776281553</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Used static sort from collection">
-      <option name="closed" value="true" />
-      <created>1724778661856</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1724778661856</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Comparable interface for TreeSet data structure">
-      <option name="closed" value="true" />
-      <created>1724780420334</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1724780420334</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Created solution framework for frequency counter">
-      <option name="closed" value="true" />
-      <created>1724781484296</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1724781484296</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ListTheory class tu support CRUD operations on List" />
     <MESSAGE value="Added support for other list methods in ListTheory" />
-    <MESSAGE value="Added SetTheory to support HasSet implementation" />
-    <MESSAGE value="Added MapTheory + exercices OOP" />
-    <MESSAGE value="Created parent+child class" />
-    <MESSAGE value="Added exercise support HashSet and Set" />
-    <MESSAGE value="Used static sort from collection" />
-    <MESSAGE value="Comparable interface for TreeSet data structure" />
-    <MESSAGE value="Created solution framework for frequency counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created solution framework for frequency counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for other list methods in ListTheory" />
   </component>
 </project>
