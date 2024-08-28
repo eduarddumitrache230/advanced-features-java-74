@@ -1,4 +1,4 @@
-package org.example.exercices.OOP;
+package org.example.exercices.oop;
 
 /*
     Clasa parinte(clasa de configuratie):
