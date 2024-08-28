@@ -1,4 +1,4 @@
-package org.example.DSA;
+package org.example.dsa;
 
 import java.util.ArrayList;
 import java.util.List;
