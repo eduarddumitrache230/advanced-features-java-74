@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Added StreamsTheory framework class">
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="simple exampele of sorting using streams">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/StreamsTheory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/StreamsTheory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractionPrinciple.executor": "Run",
-    "Application.CompositionPrinciple.executor": "Run",
-    "Application.EncapsulationPrinciple.executor": "Run",
-    "Application.InherintancePrinciple.executor": "Run",
-    "Application.ListTheory.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MovieRatings.executor": "Run",
-    "Application.PolymorphismPrinciple.executor": "Run",
-    "Application.WordCount.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/stream-api-theory",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractionPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompositionPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InherintancePrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListTheory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieRatings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PolymorphismPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsTheory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordCount.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/stream-api-theory&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.StreamsTheory">
     <configuration name="ListTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DSA.ListTheory" />
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724866612334</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="simple exampele of sorting using streams">
+      <option name="closed" value="true" />
+      <created>1724868060760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724868060760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +205,8 @@
     <MESSAGE value="Added support for other list methods in ListTheory" />
     <MESSAGE value="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java" />
     <MESSAGE value="Added StreamsTheory framework class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added StreamsTheory framework class" />
+    <MESSAGE value="simple exampele of sorting using streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple exampele of sorting using streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
