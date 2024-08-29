@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="simple exampele of sorting using streams">
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Example of stream with sort and filter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/UppercaseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streams/StreamsTheory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/StreamsTheory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,41 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompositionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncapsulationPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InherintancePrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListTheory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieRatings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolymorphismPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamsTheory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordCount.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/stream-api-theory&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractionPrinciple.executor": "Run",
+    "Application.CompositionPrinciple.executor": "Run",
+    "Application.EncapsulationPrinciple.executor": "Run",
+    "Application.InherintancePrinciple.executor": "Run",
+    "Application.ListTheory.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MovieRatings.executor": "Run",
+    "Application.PolymorphismPrinciple.executor": "Run",
+    "Application.StreamsTheory.executor": "Run",
+    "Application.UppercaseList.executor": "Run",
+    "Application.WordCount.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/stream-api-theory",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.StreamsTheory">
-    <configuration name="ListTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DSA.ListTheory" />
-      <module name="AdvancedFeauturesTheory74" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DSA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.UppercaseList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exercices.oop.Main" />
       <module name="AdvancedFeauturesTheory74" />
@@ -125,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UppercaseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.UppercaseList" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exercices.map.WordCount" />
       <module name="AdvancedFeauturesTheory74" />
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UppercaseList" />
         <item itemvalue="Application.StreamsTheory" />
         <item itemvalue="Application.MovieRatings" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.ListTheory" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724868060760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Example of stream with sort and filter">
+      <option name="closed" value="true" />
+      <created>1724948017792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724948017792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,7 +215,8 @@
     <MESSAGE value="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java" />
     <MESSAGE value="Added StreamsTheory framework class" />
     <MESSAGE value="simple exampele of sorting using streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple exampele of sorting using streams" />
+    <MESSAGE value="Example of stream with sort and filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of stream with sort and filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
