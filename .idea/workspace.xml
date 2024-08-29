@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Example of stream with map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/DistinctNumbers.java" afterDir="false" />
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Example of stream with distinct,sorted">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SumIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,7 @@
     "Application.MovieRatings.executor": "Run",
     "Application.PolymorphismPrinciple.executor": "Run",
     "Application.StreamsTheory.executor": "Run",
+    "Application.SumIntegers.executor": "Run",
     "Application.UppercaseList.executor": "Run",
     "Application.WordCount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,26 +75,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DistinctNumbers">
+  <component name="RunManager" selected="Application.SumIntegers">
     <configuration name="DistinctNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.DistinctNumbers" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exercices.oop.Main" />
-      <module name="AdvancedFeauturesTheory74" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.exercices.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SumIntegers" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UppercaseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.UppercaseList" />
       <module name="AdvancedFeauturesTheory74" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumIntegers" />
         <item itemvalue="Application.DistinctNumbers" />
         <item itemvalue="Application.UppercaseList" />
         <item itemvalue="Application.StreamsTheory" />
         <item itemvalue="Application.MovieRatings" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724949215783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Example of stream with distinct,sorted">
+      <option name="closed" value="true" />
+      <created>1724952062744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724952062744</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +235,8 @@
     <MESSAGE value="simple exampele of sorting using streams" />
     <MESSAGE value="Example of stream with sort and filter" />
     <MESSAGE value="Example of stream with map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example of stream with map" />
+    <MESSAGE value="Example of stream with distinct,sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of stream with distinct,sorted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
