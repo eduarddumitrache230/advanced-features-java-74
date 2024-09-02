@@ -34,8 +34,7 @@ import java.util.stream.Collectors;
 @ToString
 @Setter
 @Getter
-@AllArgsConstructor
-// va adauga clasei de obiect construcotrul parametrizat pt toate atributele -> public Person (String name, int age) { this = value}
+@AllArgsConstructor// va adauga clasei de obiect construcotrul parametrizat pt toate atributele -> public Person (String name, int age) { this = value}
 @NoArgsConstructor // va adauga clase de obiect constructorul neparametrizat -> public Person(){}
 
 class Person {
