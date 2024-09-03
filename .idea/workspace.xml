@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="First exercises with streams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/PersonGrouping.java" afterDir="false" />
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="grouping by person age exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/AverageOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractionPrinciple.executor": "Run",
+    "Application.AverageOfList.executor": "Run",
     "Application.CompositionPrinciple.executor": "Run",
     "Application.DistinctNumbers.executor": "Run",
     "Application.EncapsulationPrinciple.executor": "Run",
@@ -79,7 +80,20 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PersonGrouping">
+  <component name="RunManager" selected="Application.AverageOfList">
+    <configuration name="AverageOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.AverageOfList" />
+      <module name="AdvancedFeauturesTheory74" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DistinctNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.DistinctNumbers" />
       <module name="AdvancedFeauturesTheory74" />
@@ -132,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UppercaseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.UppercaseList" />
-      <module name="AdvancedFeauturesTheory74" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageOfList" />
         <item itemvalue="Application.PersonGrouping" />
         <item itemvalue="Application.SumOfSquareIntegers" />
         <item itemvalue="Application.SumIntegers" />
         <item itemvalue="Application.DistinctNumbers" />
-        <item itemvalue="Application.UppercaseList" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724954538654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="grouping by person age exercise">
+      <option name="closed" value="true" />
+      <created>1725299921341</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725299921341</updated>
+    </task>
+    <task id="LOCAL-00012" summary="grouping by person age exercise">
+      <option name="closed" value="true" />
+      <created>1725300006257</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725300006257</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,7 +275,8 @@
     <MESSAGE value="Example of stream with distinct,sorted" />
     <MESSAGE value="Example of stream with reduce" />
     <MESSAGE value="First exercises with streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="First exercises with streams" />
+    <MESSAGE value="grouping by person age exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="grouping by person age exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
