@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Added support for other list methods in ListTheory">
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Average of list exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/MultidimensionalMaping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -45,30 +51,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompositionPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncapsulationPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InherintancePrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListTheory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolymorphismPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractionPrinciple.executor": "Run",
+    "Application.AverageOfList.executor": "Run",
+    "Application.CompositionPrinciple.executor": "Run",
+    "Application.DistinctNumbers.executor": "Run",
+    "Application.EncapsulationPrinciple.executor": "Run",
+    "Application.InherintancePrinciple.executor": "Run",
+    "Application.ListTheory.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MovieRatings.executor": "Run",
+    "Application.MultidimensionalMaping.executor": "Run",
+    "Application.PersonGrouping.executor": "Run",
+    "Application.PolymorphismPrinciple.executor": "Run",
+    "Application.StreamsTheory.executor": "Run",
+    "Application.SumIntegers.executor": "Run",
+    "Application.SumOfSquareIntegers.executor": "Run",
+    "Application.UppercaseList.executor": "Run",
+    "Application.WordCount.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/stream-api-theory",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.MovieRatings">
-    <configuration name="AbstractionPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oop.AbstractionPrinciple" />
+}]]></component>
+  <component name="RunManager" selected="Application.MultidimensionalMaping">
+    <configuration name="AverageOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.AverageOfList" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.oop.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DSA.ListTheory" />
+    <configuration name="MultidimensionalMaping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MultidimensionalMaping" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DSA.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exercices.oop.Main" />
+    <configuration name="PersonGrouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.PersonGrouping" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exercices.oop.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieRatings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exercices.set.MovieRatings" />
+    <configuration name="SumIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SumIntegers" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exercices.set.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exercices.map.WordCount" />
+    <configuration name="SumOfSquareIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SumOfSquareIntegers" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exercices.map.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MovieRatings" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.ListTheory" />
-        <item itemvalue="Application.AbstractionPrinciple" />
+        <item itemvalue="Application.MultidimensionalMaping" />
+        <item itemvalue="Application.AverageOfList" />
+        <item itemvalue="Application.PersonGrouping" />
+        <item itemvalue="Application.SumOfSquareIntegers" />
+        <item itemvalue="Application.SumIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +181,121 @@
       <option name="project" value="LOCAL" />
       <updated>1724341939917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java">
+      <option name="closed" value="true" />
+      <created>1724865731730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724865731730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added StreamsTheory framework class">
+      <option name="closed" value="true" />
+      <created>1724866612334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724866612334</updated>
+    </task>
+    <task id="LOCAL-00005" summary="simple exampele of sorting using streams">
+      <option name="closed" value="true" />
+      <created>1724868060760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724868060760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Example of stream with sort and filter">
+      <option name="closed" value="true" />
+      <created>1724948017792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724948017792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Example of stream with map">
+      <option name="closed" value="true" />
+      <created>1724949215783</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724949215783</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Example of stream with distinct,sorted">
+      <option name="closed" value="true" />
+      <created>1724952062744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724952062744</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Example of stream with reduce">
+      <option name="closed" value="true" />
+      <created>1724952932100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724952932100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="First exercises with streams">
+      <option name="closed" value="true" />
+      <created>1724954538653</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724954538654</updated>
+    </task>
+    <task id="LOCAL-00011" summary="grouping by person age exercise">
+      <option name="closed" value="true" />
+      <created>1725299921341</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725299921341</updated>
+    </task>
+    <task id="LOCAL-00012" summary="grouping by person age exercise">
+      <option name="closed" value="true" />
+      <created>1725300006257</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725300006257</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Average of list exercise">
+      <option name="closed" value="true" />
+      <created>1725379630851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725379630853</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ListTheory class tu support CRUD operations on List" />
     <MESSAGE value="Added support for other list methods in ListTheory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for other list methods in ListTheory" />
+    <MESSAGE value="Merge branch 'refs/heads/main' into feature/exercices-map&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/org/example/dsa/SetTheory.java" />
+    <MESSAGE value="Added StreamsTheory framework class" />
+    <MESSAGE value="simple exampele of sorting using streams" />
+    <MESSAGE value="Example of stream with sort and filter" />
+    <MESSAGE value="Example of stream with map" />
+    <MESSAGE value="Example of stream with distinct,sorted" />
+    <MESSAGE value="Example of stream with reduce" />
+    <MESSAGE value="First exercises with streams" />
+    <MESSAGE value="grouping by person age exercise" />
+    <MESSAGE value="Average of list exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Average of list exercise" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/exercices/oop/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
