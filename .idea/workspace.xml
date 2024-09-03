@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="grouping by person age exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/AverageOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="4e4acc50-d2de-4158-a673-686d87703481" name="Changes" comment="Average of list exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/MultidimensionalMaping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
     "Application.ListTheory.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MovieRatings.executor": "Run",
+    "Application.MultidimensionalMaping.executor": "Run",
     "Application.PersonGrouping.executor": "Run",
     "Application.PolymorphismPrinciple.executor": "Run",
     "Application.StreamsTheory.executor": "Run",
@@ -80,7 +80,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AverageOfList">
+  <component name="RunManager" selected="Application.MultidimensionalMaping">
     <configuration name="AverageOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.AverageOfList" />
       <module name="AdvancedFeauturesTheory74" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.DistinctNumbers" />
+    <configuration name="MultidimensionalMaping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MultidimensionalMaping" />
       <module name="AdvancedFeauturesTheory74" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultidimensionalMaping" />
         <item itemvalue="Application.AverageOfList" />
         <item itemvalue="Application.PersonGrouping" />
         <item itemvalue="Application.SumOfSquareIntegers" />
         <item itemvalue="Application.SumIntegers" />
-        <item itemvalue="Application.DistinctNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725300006257</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Average of list exercise">
+      <option name="closed" value="true" />
+      <created>1725379630851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725379630853</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,7 +284,8 @@
     <MESSAGE value="Example of stream with reduce" />
     <MESSAGE value="First exercises with streams" />
     <MESSAGE value="grouping by person age exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="grouping by person age exercise" />
+    <MESSAGE value="Average of list exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Average of list exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
